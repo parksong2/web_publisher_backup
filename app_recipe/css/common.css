@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: snas-serif;
+	latter-spacing: -1px;
+}
+
+body {
+	margin: 0;
+}
+div, section, header, footer, nav {
+	position: relative;
+}
+img {
+	vertical-align: top;
+}
+
+.page {
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background-color: #fff;
+	transform: translateX(100%);
+	transition: transform 0.3s;
+}
+.page.active {
+	transform: translateX(0);
+}
+
+header {
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	height: 48px;
+	background-color: orange;
+}
+header .title {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.content {
+	position: absolute;
+	top: 48px; left: 0; right: 0; bottom: 0;
+	overflow: auto;
+}
+
+.list {
+	float: left;
+	width: 50%;
+	padding-top: 50%;
+}
+
+.list .thumb {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+.list .thumb img {
+	width: 100%;
+	height: 100%;
+}
+
+.list .subject {
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.list .subject .title {
+	position: absolute;
+	top: 45%; left: 10%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+header button.back {
+	position: absolute;
+	top: 50%; left: 10px;
+	transform: translateY(-50%);
+}
+
+.image img {
+	width: 100%;
+}
+
+.hambuger {
+	position: absolute;
+	top: 50%; left: 20px;
+	transform: translateY(-50%);
+	font-size: 1.2em;
+	color: #fff;
+	transition: transform 0.3s;
+}
+.hambuger.on {
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.drawer {
+	position: fixed;
+	top: 0; left: 0; bottom: 0;
+	width: 60%;
+	background-color: #eee;
+	box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+	transform: translateX(-100%);
+	transition: transform 0.5s;
+}
+.drawer.on {
+	transform: translateX(0);
+}

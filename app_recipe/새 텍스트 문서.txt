@@ -1,0 +1,19 @@
+홈
+- swipe
+- banner
+
+레시피
+- list
+- detail
+
+동영상
+- list
+- popup
+
+마이페이지
+- form
+- save/load
+   set/get
+
+contents
+- 10개 이상
