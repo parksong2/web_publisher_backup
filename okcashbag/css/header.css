@@ -1,0 +1,207 @@
+header {
+    height: 96px;
+    border-bottom: 1px solid #ddd;
+}
+header .inner {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+header .logo {
+    position: absolute;
+    bottom: 10px; left: 0;    
+}
+
+header .util-wrap {
+    position: absolute;
+    top: 0; right: 0;
+}
+header .util-wrap .util {
+    float: left;
+    margin: 12px 10px 0;
+    cursor: pointer;
+}
+header .util-wrap .util:first-child {
+    margin-left: 0;
+}
+header .util-wrap .util:last-child {
+    margin-right: 0;
+}
+header .util-wrap .util:before {
+    content: '';
+    position: absolute;
+    top: 5px; right: -12px;
+    border-left: 1px solid #ccc;
+    width: 1px;
+    height: 11px;
+}
+header .util-wrap .util:last-child:before {
+    content: '';
+    display: none;
+}
+header .util-wrap .util:hover {
+    text-decoration: underline;
+}
+
+header nav {
+	position: absolute;
+	top: 45px; left: 0; right: 0; bottom: 0;
+	height: 50px;
+	text-align: center;
+}
+header nav .gnb {
+    position: static;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 10px;
+    cursor: pointer;
+}
+header nav .gnb:last-child {
+    position: absolute;
+    right: 0;
+}
+header nav .gnb .text {
+    font-size: 24px;
+    font-weight: 500;
+}
+header nav .gnb:hover .text {
+    color: #e21a37;
+}
+header nav .gnb:nth-child(7):hover .text, header nav .gnb:last-child:hover .text {
+    color: inherit;
+}
+
+header .draw {
+    position: absolute;
+    top: 97px; left: 0; right: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid #ccc;
+    z-index: 999;
+}
+header .draw .draw-inner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 490px;
+}
+header .dgnb-wrap {
+    position: absolute
+}
+header .dgnb-wrap:nth-child(1) {
+    top: 20px; left: 0;
+}
+header .dgnb-wrap:nth-child(2) {
+    top: 20px; left: 241px;
+}
+header .dgnb-wrap:nth-child(3) {
+    top: 20px; left: 482px;
+}
+header .dgnb-wrap:nth-child(4) {
+    top: 20px; left: 723px;
+}
+header .dgnb-wrap:nth-child(5) {
+    top: 20px; left: 964px;
+}
+header .dgnb-wrap:nth-child(6) {
+    top: 270px; left: 0;
+}
+header .dgnb-wrap:nth-child(7) {
+    top: 270px; left: 241px;
+}
+header .dgnb-wrap:nth-child(8) {
+    top: 270px; left: 482px;
+}
+header .dgnb-wrap:nth-child(9) {
+    top: 270px; left: 723px;
+}
+
+header .dgnb-wrap .dgnb {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+header .dgnb-wrap .dgnb:hover {
+    color: #e21a37;
+    font-weight: bold;
+}
+header .dgnb-wrap .dgnb:nth-child(1):hover {
+    color: inherit;
+}
+header .dgnb-wrap .dgnb:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    cursor: context-menu;
+}
+header .dgnb-wrap:nth-child(1) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(2) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(3) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(4) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(5) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(6) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(7) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(8) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}
+header .dgnb-wrap:nth-child(9) .dgnb:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 180px;
+    height: 1px;
+    border-top: 1px solid #000;
+}

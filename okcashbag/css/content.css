@@ -1,0 +1,30 @@
+.content .container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.content nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.content nav .text {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.content nav .text:first-child {
+    margin-left: 0;
+}
+.content nav .text:before {
+    content: '>';
+    position: absolute;
+    top: 0; left: 150%;
+}
+.content nav .text:nth-child(2):before {
+    content: '>';
+    position: absolute;
+    top: 0; left: 115%;
+}
+.content nav .text:last-child:before {
+    content: '';
+}

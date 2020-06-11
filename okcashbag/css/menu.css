@@ -1,0 +1,45 @@
+section.menu {
+    height: 390px;
+    
+}
+section.menu .menu-wrap {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 250px;
+}
+section.menu .mn {
+    width: 400px;
+    height: inherit;
+    float: left;
+    cursor: pointer;
+}
+section.menu .mn:nth-child(2):before {
+    content: '';
+    width: 400px;
+    height: 250px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    position: absolute;
+    top: 0; left: 0;
+}
+section.menu .mn .image {
+    width: 400px;
+    height: 200px;
+}
+section.menu .mn .image img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+section.menu .mn .subject {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+}
+section.menu .mn:hover .subject {
+    text-decoration: underline;
+}

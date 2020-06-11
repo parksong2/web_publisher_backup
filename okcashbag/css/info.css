@@ -1,0 +1,13 @@
+.content info {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content info nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content info .text {
+    margin-right: 30px;
+}

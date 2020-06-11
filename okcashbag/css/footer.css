@@ -1,0 +1,83 @@
+footer {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid #ddd;
+}
+footer .inner {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+footer .inner .logo {
+    position: absolute;
+    top: 25px; left: 0;
+    width: 111px;
+    height: 58px;
+}
+footer .inner .fgnb-wrap {
+    position: absolute;
+    top: 25px; left: 160px;
+}
+footer .inner .fgnb {
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+footer .inner .fgnb:last-child {
+    margin-right: 0;
+}
+footer .inner .fgnb:nth-child(2) {
+    color: #d94032;
+}
+footer .inner .fgnb:before {
+    content: '';
+    width: 1px;
+    height: 13px;
+    border-right: 1px solid #333;
+    position: absolute;
+    top: 4px; right: -8px;
+}
+footer .inner .fgnb:last-child:before {
+    content: '';
+    display: none;
+}
+
+footer .inner .copyright {
+    position: absolute;
+    top: 50px; left: 160px;
+    line-height: 20px
+}
+footer .inner .copyright span {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+footer .inner .center {
+    position: absolute;
+    top: 25px; right: 0;
+}
+footer .inner .call {
+    float: left;
+    margin-right: 25px;
+}
+footer .inner .call .title {
+    font-size: 14px;
+}
+footer .inner .call .image {
+    margin-top: 10px;
+}
+
+footer .inner .call .qna-wrap {
+    position: absolute;
+    top: 60px; left: 0;
+    width: 200px;
+}
+footer .inner .call .qna {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+footer .inner .call .qna:last-child {
+    margin-right: 0;
+}

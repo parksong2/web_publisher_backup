@@ -1,0 +1,19 @@
+section.visual {
+    height: 474px;
+}
+section.visual .slider {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    overflow: hidden;
+}
+section.visual .inner {
+    width: 200%;
+    height: inherit;
+    position: absolute;
+}
+section.visual .slide {
+    float: left;
+    width: 50%;
+    height: inherit;
+}

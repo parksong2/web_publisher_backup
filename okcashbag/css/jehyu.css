@@ -1,0 +1,129 @@
+section.jehyusa {
+    height: 840px;
+    overflow: hidden;
+}
+
+.title:nth-child(1) {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+.title:nth-child(2) {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section.jehyusa .jehyu-wrap {
+    margin: 30px auto;
+    width: 1200px;
+    height: 540px;
+}
+section.jehyusa .jehyu {
+    width: 300px;
+    height: 270px;
+    float: left;
+    cursor: pointer;
+}
+section.jehyusa .jehyu .subject {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px; left: 50%;
+    transform: translateX(-50%);
+}
+section.jehyusa .jehyu:before {
+    content: '';
+    width: 300px;
+    height: 270px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+
+section.jehyusa .jehyu .image {
+    width: 300px;
+    height: 210px;
+    transition: background 0.3s;
+}
+section.jehyusa .jehyu:nth-child(1) .image {
+    background-image: url(../img/jehyu_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(2) .image {
+    background-image: url(../img/jehyu_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(3) .image {
+    background-image: url(../img/jehyu_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(4) .image {
+    background-image: url(../img/jehyu_04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(5) .image {
+    background-image: url(../img/jehyu_05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(6) .image {
+    background-image: url(../img/jehyu_06.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(7) .image {
+    background-image: url(../img/jehyu_07.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(8) .image {
+    background-image: url(../img/jehyu_08.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.jehyusa .jehyu:nth-child(1):hover .image {
+    background-image: url(../img/jehyu_011.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(2):hover .image {
+    background-image: url(../img/jehyu_022.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(3):hover .image {
+    background-image: url(../img/jehyu_033.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(4):hover .image {
+    background-image: url(../img/jehyu_044.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(5):hover .image {
+    background-image: url(../img/jehyu_055.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(6):hover .image {
+    background-image: url(../img/jehyu_066.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(7):hover .image {
+    background-image: url(../img/jehyu_077.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.jehyusa .jehyu:nth-child(8):hover .image {
+    background-image: url(../img/jehyu_088.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
