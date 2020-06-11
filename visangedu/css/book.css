@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.book {
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+section.book .text-wrap {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+section.book .text {
+	color: #353535;
+	font-size: 15px;
+	line-height: 25px;
+}

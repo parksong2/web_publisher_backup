@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	height: 160px;
+	background-color: #f0f0f0;
+	z-index: 999;
+	transition: height 0.3s;
+}
+
+header .logo {
+	position: absolute;
+	top: 30px; left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	transition: left 0.3s;
+}
+header .logo img {
+	width: 100%;
+}
+
+nav {
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	text-align: center;
+	height: 34px;
+}
+nav .gnb {
+	position: static;
+	display: inline-block;
+	color: #353535;
+	margin: 0 15px;
+	border-bottom: 5px solid rgba(255, 255, 255, 0);
+	padding-bottom: 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+nav .gnb:hover {
+	border-bottom: 5px solid #007dc5;
+}
+nav .gnb:hover .text {
+	color: #007dc5;
+}
+nav .gnb .draw {
+	position: absolute;
+	top: 34px; left: 0; right: 0;
+	background-color: #ebebeb;
+	height: 400px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s;
+}
+nav .gnb:hover .draw {
+	opacity: 1;
+	visibility: visible;
+}
+
+header.small {
+	height: 60px;
+}
+header.small .logo {
+	width: 47px;
+	height: 40px;
+	top: 10px; left: calc(50% - 600px + 23px);
+}
+header.small .logo img {
+	width: 100%;
+}

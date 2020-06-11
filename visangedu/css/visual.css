@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.visual .bg {
+	position: fixed;
+	top: 0; left: -10%; right: -10%;
+	height: 100vh;
+	background-image: url(../img/visual.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	transition: transform 1s ease-out;
+}
+
+section.visual .cover {
+	margin-top: 100vh;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+section.visual .title {
+	width: 177px;
+	height: 151px;
+	position: fixed;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(../img/logologo.png);
+	opacity: 0.5;
+}
+
+section.visual .cover .cover-wrap {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #f0f0f0;
+}
+
+section.visual .cover .cover-title {
+	font-size: 30px;
+}
+
+section.visual .cover .cover-image {
+	margin-top: 30px;
+}
