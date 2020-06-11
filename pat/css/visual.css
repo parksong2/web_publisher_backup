@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+section.visual {
+    margin-top: 100px;
+    height: 70vh;
+}
+
+section.visual .vid {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    height: inherit;
+}
+section.visual video {
+    height: 70vh;
+}

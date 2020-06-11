@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.collection {
+    height: 65vh;
+    background-color: #fff;
+}
+
+
+section.collection .title {
+    position: absolute;
+    top: 100px; left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+}
+
+section.collection .collect-wrap {
+    position: absolute;
+    top: 165px; left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+}
+
+section.collection .collect {
+    width: 400px;
+    height: 423px;
+    float: left;
+}
+
+section.collection .collect .ct {
+    height: 373px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+section.collection .collect .image {
+    opacity: .5;
+    transition: all 0.5s;
+}
+section.collection .collect .image img {
+    width: 100%;
+}
+
+section.collection .collect .tcover {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 152px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, .5);
+    transition: opacity 0.5s;
+}
+section.collection .collect .text {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: black;
+}
+
+section.collection .collect .ct:hover .image {
+    opacity: 1;
+    transform: scale(1.1);
+}
+section.collection .collect .ct:hover .tcover {
+    opacity: 0;
+}
+
+section.collection .collect .desc {
+    position: absolute;
+    left: 50%; bottom: 0;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #333;
+}
+

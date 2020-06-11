@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.infomation {
+    height: 60vh;
+}
+
+section.infomation .icon-wrap {
+    position: absolute;
+    top: 100px; left: 50%;
+    transform: translateX(-50%);
+}
+section.infomation .icon-wrap .ticon {
+    text-align: center;
+}
+section.infomation .icon-wrap .title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+section.infomation .map-wrap {
+    position: absolute;
+    top: 215px; left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    height: 125px;
+}
+section.infomation .map {
+    float: left;
+    margin-right: 50px;
+}
+section.infomation .map:nth-child(3) {
+    position: absolute;
+    left: 0; bottom: 0;
+}
+section.infomation .map:last-child {
+    position: absolute;
+    top: 0; right: 0;
+    margin-right: 0;
+}
+section.infomation select[name=area] {
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+section.infomation select[name=type] {
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+section.infomation input[name=text] {
+    width: 850px;
+    height: 50px;
+    box-sizing: border-box;
+}
+section.infomation input[name=search] {
+    width: 300px;
+    height: 125px;
+    background-color: #3b454d;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}

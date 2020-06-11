@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer {
+    height: 200px;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: repeat-x;
+    background-color: #fff;
+}
+footer .footer-inner {
+    width: 1200px;
+    height: 151px;
+    margin: 0 auto;
+}
+footer .footer-inner .fgnb-wrap {
+    position: absolute;
+    top: 17px; left: 0;
+}
+footer .footer-inner .fgnb {
+    float: left;
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 16px;
+    cursor: pointer;
+}
+footer .footer-inner .fgnb:last-child {
+    margin-right: 0;
+}
+footer .footer-inner .fgnb:before {
+    content: '';
+    position: absolute;
+    top: 1px; right: -10px;
+    border-right: 1px solid #000;
+    height: 13px;
+}
+footer .footer-inner .fgnb:last-child:before {
+    content: '';
+    display: none;
+}
+footer .footer-inner .fgnb:hover {
+    color: #f33f33;
+}
+
+footer .footer-inner .copy-wrap {
+    position: absolute;
+    top: 70px; left: 0;
+}
+footer .footer-inner .copyright {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer .footer-inner .sns-wrap {
+    height: 26px;
+    position: absolute;
+    top: 60px; right: 0;
+}
+footer .footer-inner .sns {
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+footer .footer-inner .sns img {
+    height: 100%;
+}
+
+footer .footer-inner .inb {
+    position: absolute;
+    top: 100px; right: 0;
+}
+
+footer .footer-inner .cs {
+    position: absolute;
+    top: 60px; left: 60%;
+    font-size: 13px;
+}
+footer .footer-inner .title {
+    font-size: 15px;
+    color: #f33f33;
+}
+footer .footer-inner .call {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer .footer-inner .time {
+    margin-top: 10px;
+}
