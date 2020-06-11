@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.brand {
+	height: 100vh;
+	background-color: #e8ecf1;
+}
+
+section.brand .brand-wrap{
+	position: absolute;
+	top: 70px; left: 50%;
+	transform: translateX(-50%);
+	padding: 5%;
+}
+section.brand .brand-wrap .text {
+	color: #444;
+	font-size: 1em;
+	line-height: 24px;
+}
+
+section.brand .btn {
+	position: absolute;
+	left: 50%; bottom: 300px;
+	transform: translateX(-50%);
+	width: 250px;
+	height: 60px;
+	border: 1px solid rgba(153, 153, 153, 0.5);
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+section.brand .btn .text {
+	display: inline-block;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 0.9em;
+	width: 136px;
+}
+
+section.brand .btn:hover {
+	background-color: #444;
+	border-color: #444;
+	color: #fff;
+}
+
+/*
+section.brand .sns-wrap {
+	position: absolute;
+	left: 50%; bottom: 240px;
+	transform: translateX(-50%);
+}
+section.brand .sns-wrap .sns {
+	float: left;
+	margin-right: 30px;
+	width: 30px; height: 30px;
+	background-color: #444;
+	border-radius: 50%;
+}
+section.brand .sns-wrap .sns:last-child {
+	margin-right: 0;
+}
+section.brand .sns:nth-child(1):before {
+	content: '';
+	font-size: 0.8em;
+	color: #fff;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+*/
+@media (max-width: 1000px){
+	section.brand .brand-wrap {
+		padding: 1%;
+	}
+	section.brand .btn {
+		bottom: 200px;
+	}
+}
+@media (max-width: 600px){
+	section.brand .brand-wrap .text {
+		font-size: 0.8em;
+	}
+	section.brand .btn {
+		bottom: 100px;
+	}
+}

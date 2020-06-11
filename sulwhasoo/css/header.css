@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	height: 140px;
+	background-color: #062c5e;
+	color: #fff;
+	z-index: 999;
+	transition: height 0.5s;
+}
+
+header .logo {
+	position: absolute;
+	width: 250px;
+	height: 25px;
+	left: 50%;
+	top: 30px;
+	transform: translateX(-50%);
+	transition: left 0.5s;
+	cursor: pointer;
+}
+header .logo img {
+	width: 100%;
+}
+
+header .util {
+	position: absolute;
+	top: 30px; left: 50%;
+	transform: translateX(-50%);
+	width: 1280px;
+	height: 32px;
+	font-size: 0.8em;
+}
+header .util .lang {
+	display: inline-block;
+	padding: 0 1px 2px;
+	margin-right: 10px;
+	float: left;
+	opacity: 0.6;
+	cursor: pointer;
+}
+header .util .lang:hover:before {
+	content: '';
+	position: absolute;
+	top: 20px;
+	width: 16px;
+	border-bottom: 1px solid #fff;
+}
+header .util .lang.lang-sel {
+	border-bottom: 1px solid #fff;
+	opacity: 1;
+}
+header .util .news {
+	float: right;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+header .util .search {
+	float: right;
+	margin-left: 20px;
+	cursor: pointer;
+}
+header .util .search:before {
+	content: '';
+	position: absolute;
+	top: 6px;
+	width: 32px;
+	height: 10px;
+	border-left: 1px solid #fff;
+}
+header .util .search:after {
+	content: '\1F50D';
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+}
+header nav {
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+	height: 60px;
+	text-align: center;
+}
+header nav .gnb {
+	position: static;
+	display: inline-block;
+	padding: 0 20px;
+	height: 57px;
+	line-height: 57px;
+	color: #fff;
+	font-size: 1.1em;
+	margin: 0 auto;
+	cursor: pointer;
+}
+header nav .gnb:hover {
+	border-bottom: 3px solid #c5deff;
+	color: #c5deff;
+}
+
+header nav .gnb .draw {
+	position: absolute;
+	left: 0; right: 0; top: 100%;
+	height: 372px;
+	background-color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s;
+	cursor: auto;
+}
+header nav .gnb:hover .draw {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* header small */
+header.small {
+	height: 60px;
+}
+header.small .logo {
+	width: 170px;
+	height: 17px;
+	top: 20px;
+	left: calc(50% - 640px + 85px);
+	cursor: pointer;
+}
+header.small .lang {
+	display: none;
+}
+header.small .util {
+	top: 20px;
+}
+
+@media (max-width: 1000px){
+	header {
+		height: 92px;
+	}
+	header .logo {
+		left: 160px;
+	}
+	header nav {
+		display: none;
+	}
+}
+@media (max-width: 600px){
+    header .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

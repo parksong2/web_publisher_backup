@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+
+.draw .left {
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0;
+	width: 40%;
+	background-color: #f5f5f5;
+}
+.draw .right {
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 40%;
+	width: 60%;
+}
+.draw .left .cont {
+	position: absolute;
+	top: 0; bottom: 0;
+	width: 448px;
+	right: 0;
+}
+.draw .right .cont {
+	position: absolute;
+	top: 0; bottom: 0;
+	width: 832px;
+	left: 0;
+}
+.draw .right .cont .list:hover .rdraw{
+	display: block;
+}
+
+
+.draw .left .cont .title {
+	color: #222;
+	font-size: 1.6em;
+	float: left;
+	padding: 30px 40px 20px 30px;
+	font-weight: bold;
+}
+.draw .left .cont .text {
+	float: left;
+	font-size: 0.8em;
+	color: #222;
+	padding: 0 40px 0 30px;
+	line-height: 24px;
+	text-align: left;
+}
+.draw .left .cont .detail {
+	float: left;
+	font-size: 0.8em;
+	color: #444;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+.draw .left .cont .detail:hover {
+	text-decoration: underline;
+	color: #005295;
+}
+
+.draw .right .cont .list-wrap {
+	width: 100%;
+	padding-top: 5%;
+	padding-left: 10%;
+	float: left;
+}
+.draw .right .cont .list .rtext {
+	color: #444;
+	font-size: 0.9em;
+	transition: all 0.5s;
+}
+.draw .right .cont .list {
+	text-align: left;
+	line-height: 40px;
+	margin: 5px;
+	position: static;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.draw .right .cont .list:hover .rtext {
+	color: #005295;
+	text-decoration: underline;
+}
+.draw .right .list .rdraw {
+	position: absolute;
+	top: 0; left: 420px; right: 0; bottom: 0;
+	padding-top: 5%;
+	display: none;
+	z-index: 99;
+	transition: all 0.5s;
+}
+.gnb:nth-child(4) .draw .list .rdraw {
+    position: absolute;
+	top: 0; left: 420px; right: 0; bottom: 0;
+	padding-top: 5%;
+    display: block;
+}
+.gnb:nth-child(4) .draw .list .rtext {
+    margin-top: 15px;
+}
+.draw .right .list .rlist-wrap {
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	width: 100%;
+	height: 275px;
+}
+.draw .right .list .rlist {
+	color: #444;
+	font-size: 0.9em;
+	padding-left: 15%;
+	line-height: 20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.draw .right .list .rlist:first-child {
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.draw .right .list .rlist:first-child span {
+	color: rgba(0, 0, 0, 0.3);
+}
+.draw .right .list .rlist:hover {
+	color: #005295;
+	text-decoration: underline;
+}
+.draw .right .list .rlist:first-child {
+	color: #444;
+	text-decoration: none;
+}
+
+.draw .right .list .image {
+	position: absolute;
+	top: 0; left: 0;
+	padding-top: 10%;
+}
+.draw .right .rdraw .txt {
+	position: absolute;
+	left: 0; top: 90%;
+	color: #444;
+	font-size: 0.9em;
+	line-height: 20px;
+	text-align: left;
+	width: 288px;
+}
+
+.draw .right .list-info {
+	display: none;
+}
+
+/* gnb brand */
+.draw .brand {
+	float: left;
+	height: 120px;
+	width: 33.3333%;
+	cursor: pointer;
+}
+.draw .brand .blogo {
+	position: absolute;
+	top: 65%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+.draw .brand .blogo img {
+	height: 100%;
+}
+.draw .brand .btext {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	color: #444;
+	font-size: 0.9em;
+}
+.draw .brand:before {
+	content: '';
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	transition: border 0.2s ease-out;
+}
+.draw .brand:hover:before {
+	border: 15px solid rgba(0, 0, 0, 0.1);
+}
+.draw .brand-wrap {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 90%;
+	right: 0;
+}

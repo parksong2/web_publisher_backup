@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+section.product {
+	height: 100vh;
+	background-color: #fff;
+	border-top: 1px solid red;
+}
+
+section.product .title {
+	font-size: 30px;
+	position: absolute;
+	top: 100px; left: 50%;
+	transform: translateX(-50%);
+}
+
+.product-slider {
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+.product-slider .slider-inner {
+	position: absolute;
+	height: inherit;
+	width: 200%;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.product-slider .slide-wrap {
+	height: inherit;
+	width: 50%;
+	float: left;
+	background-color: blue;
+}
