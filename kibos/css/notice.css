@@ -1,0 +1,149 @@
+.content.notice aside .title {
+    background-image: url(../img/h3-prcetner.png);
+}
+.content.notice aside .snb {
+    background-image: url(../img/lnb-prcetner.png);
+}
+
+.content.notify article .title {
+    background-image: url(../img/h4-tit5-01.gif);
+    width: 110px;
+    height: 31px;
+}
+.content.notify .info {
+    background-image: url(../img/pr-illst01.png);
+    width: 410px;
+    height: 171px;
+}
+
+.content.notice .brand-sel {
+    width: 75px;
+    height: 13px;
+    background-image: url(../img/brand-sel.png);
+    text-indent: -9999px;
+    display: inline-block;
+}
+.content.notice select {
+    font-size: 12px;
+}
+
+.content.notice .table-inner {
+    margin-top: 10px;
+}
+.content.notice table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.content.notice th, .content.notice td {
+    font-size: 13px;
+    padding: 15px 0;
+}
+.content.notice th {
+    border-bottom: 1px solid #ddd;
+}
+
+.content.notice th.tt {
+    background-image: url(../img/table-th.gif);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.content.notice th.no .tt {
+    background-position: 28px -115px;
+}
+.content.notice th.cate .tt {
+    background-position: 26px -136px;
+}
+.content.notice th.subject .tt {
+    background-position: 200px -16px;
+}
+.content.notice th.rdate .tt {
+    background-position: 16px -56px;
+}
+
+.content.notice th.no {
+    background-image: url(../img/thead-left.png);
+}
+.content.notice th.cate {
+    background-image: url(../img/thead-center.png);
+}
+.content.notice th.subject {
+    background-image: url(../img/thead-center.png);
+}
+.content.notice th.rdate {
+    background-image: url(../img/thead-right.png);
+}
+
+.content.notice td {
+    border-bottom: 1px solid #ccc;
+}
+.content.notice .no {
+    width: 10%;
+    text-align: center;
+}
+.content.notice .cate {
+    width: 10%;
+    text-align: center;
+}
+.content.notice .subject {
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+}
+.content.notice .rdate {
+    width: 10%;
+    text-align: center;
+}
+
+.content.notice .cate .nots {
+    background-image: url(../img/pr-ico.gif);
+    background-repeat: no-repeat;
+    background-position: center -30px;
+    text-indent: -9999px;
+    height: 21px;
+}
+.content.notice .cate .evt {
+    background-image: url(../img/pr-ico.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-indent: -9999px;
+    height: 21px;
+}
+
+.content.notice .pagination {
+    text-align: center;
+    margin-top: 40px;
+}
+.content.notice .pagination div {
+    display: inline-block;
+}
+.content.notice .pagination .first {
+    width: 24px;
+    height: 17px;
+    background-image: url(../img/page-num.gif);
+    text-indent: -9999px;
+}
+.content.notice .pagination .prev {
+    width: 24px;
+    height: 17px;
+    background-image: url(../img/page-num.gif);
+    background-position: -25px 0;
+    text-indent: -9999px;
+}
+.content.notice .pagination .next {
+    width: 24px;
+    height: 17px;
+    background-image: url(../img/page-num.gif);
+    background-position: -48px 0;
+    text-indent: -9999px;
+}
+.content.notice .pagination .last {
+    width: 24px;
+    height: 17px;
+    background-image: url(../img/page-num.gif);
+    background-position: -73px 0;
+    text-indent: -9999px;
+}
+.content.notice .pagination .pno {
+    margin: 0 5px;
+}

@@ -1,0 +1,304 @@
+section.visual {
+    padding-top: 47.4%;
+    background-color: antiquewhite;
+}
+section.visual .slide {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: none;
+}
+section.visual .slide:first-child {
+    display: block;
+}
+section.visual .slide .image img {
+    width: 100%;
+}
+section.visual .slide .sign {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 274px;
+    background-image: url(../img/main-top.png);
+}
+section.visual .slide .sign img {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ 
+section.visual .page-wrap {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ 
+section.visual .page {
+    float: left;
+    width: 13px;
+    height: 21px;
+    margin: 0 5px;
+    background-image: url(../img/main-top-dot.png);
+    background-position: -19px -72px; 
+    cursor: pointer;
+}
+section.visual .page.sel {
+    background-position: 0px -72px; 
+}
+section.visual .prev {
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 440px);
+    width: 26px;
+    height: 49px;
+    background-image: url(../img/main-top-dot.png);
+    cursor: pointer;
+}
+section.visual .next {
+    position: absolute;
+    top: 100px;
+    left: calc(50% + 414px);
+    width: 26px;
+    height: 49px;
+    background-image: url(../img/main-top-dot.png);
+    background-position: right top;
+    cursor: pointer;
+}
+
+section.brand {
+    width: 1922px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 933px;
+    overflow: hidden;
+    background-color: #fff;
+}
+section.brand .brand-inner {
+    min-width: 1992px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: inherit;
+}
+
+section.brand .tview {
+    display: none;
+}
+section.brand .tview.sel {
+    display: block;
+}
+section.brand .tview .tleft {
+    width: 50%;
+    float: left;
+}
+section.brand .tview .tleft img {
+    width: 100%;
+}
+section.brand .tview .tright {
+    width: 50%;
+    float: left;
+}
+section.brand .tview .tright img {
+    width: 100%;
+}
+
+section.brand .tab-wrap {
+    position: absolute;
+    top: 0; right: 50%;
+}
+section.brand .tab {
+    width: 96px;
+    height: 84px;
+    float: left;
+    background-image: url(../img/main-brand-select.png);
+    cursor: pointer;
+    margin-left: 1px;
+}
+section.brand .tab.sel {
+    background-position-x: -140px;
+}
+section.brand .tab:nth-child(1) {
+    background-position-y: -300px;
+}
+section.brand .tab:nth-child(2) {
+    background-position-y: -500px;
+}
+section.brand .tab:nth-child(3) {
+    background-position-y: 0;
+}
+section.brand .tab:nth-child(4) {
+    background-position-y: -100px;
+}
+section.brand .tab:nth-child(5) {
+    background-position-y: -200px;
+}
+section.brand .tab:nth-child(6) {
+    background-position-y: -400px;
+}
+section.brand .tab:nth-child(6) a {
+    display: block;
+    text-indent: -9999px;
+    height: inherit;
+}
+
+section.brand .brand-go {
+    position: absolute;
+    width: 189px;
+    height: 43px;
+    top: 33px; left: 36px;
+    background-image: url(../img/brand-go.png);
+}
+section.brand .brand-go a {
+    display: block;
+    height: 43px;
+    text-indent: -9999px;
+}
+section.brand .tview .brand-title {
+    position: absolute;
+    top: 150px; left: 50%;
+    transform: translateX(-50%);
+}
+section.brand .tview:nth-child(1) .brand-title {
+    width: 442px;
+    height: 142px;
+    background-image: url(../img/brand-all-title4.gif);
+}
+section.brand .tview:nth-child(2) .brand-title {
+    width: 448px;
+    height: 140px;
+    background-image: url(../img/brand-all-title5.gif);
+}
+section.brand .tview:nth-child(3) .brand-title {
+    width: 532px;
+    height: 140px;
+    background-image: url(../img/brand-all-title1.gif);
+}
+section.brand .tview:nth-child(4) .brand-title {
+    width: 437px;
+    height: 132px;
+    background-image: url(../img/brand-all-title2.gif);
+}
+section.brand .tview:nth-child(5) .brand-title {
+    width: 434px;
+    height: 168px;
+    background-image: url(../img/brand-all-title3.gif);
+}
+
+section.brand .brand-banner {
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 550px;
+    height: 550px;
+}
+section.brand .brand-banner .image {
+    float: left;
+}
+
+section.community {
+    padding-top: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+section.community .bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url(../img/main-conts-c.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+ 
+section.community .board {
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 110px);
+    width: 590px;
+    height: 281px;
+    background-color: #6d4d41;
+     
+    background-image: url(../img/main-news.gif);
+    background-repeat: no-repeat;
+    overflow: auto;
+     
+}
+section.community .board .list-wrap {
+    position: absolute;
+    width: 411px;
+    height: auto;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+}
+section.community .board .list {
+    overflow: hidden;
+    height: 80px;
+    border-bottom: 1px dotted #aaa;
+}
+section.community .board .list:first-child {
+    margin-top: 14px;
+}
+section.community .board .day {
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    color: #888;
+}
+section.community .board .month {
+    float: left;
+    font-size: 13px;
+    margin-top: 54px;
+    margin-left: -60px;
+    color: #aaa;
+}
+section.community .board .subject {
+    float: left;
+    margin: 40px 0 0 0px;
+    color: #aaa;
+    width: 300px;
+     
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+     
+}
+ 
+section.community .banner-wrap {
+    position: absolute;
+    top: 440px;
+    left: calc(50% - 110px);
+    width: 590px;
+    height: 281px;
+     
+}
+section.community .banner {
+    float: left;
+    width: 289px;
+}
+section.community .banner:last-child {
+    float: right;
+}
+section.community .banner .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+ 
+.link-wrap {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 470px);
+}
+.link {
+    background-image: url(../img/org-as.png);
+    width: 142px;
+    height: 142px;
+    float: left;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.link:nth-child(2) {
+    background-position: -149px top;
+}
+.link:nth-child(3) {
+    background-position: -298px top;
+}

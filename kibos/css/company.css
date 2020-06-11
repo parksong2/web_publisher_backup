@@ -1,0 +1,117 @@
+.content.company aside .title {
+    background-image: url(../img/h3-company.png);
+}
+.content.company aside .snb {
+    background-image: url(../img/lnb-company.png);
+}
+
+.content.kibos article .title {
+    background-image: url(../img/h4-tit1-01.gif);
+    width: 142px;
+    height: 30px;
+}
+.content.kibos .info {
+    background-image: url(../img/pic-info.jpg);
+    width: 448px;
+    height: 296px;
+}
+.content.kibos .cont {
+    background-image: url(../img/kibos-info.png);
+    width: 691px;
+    height: 600px;
+}
+.content.kibos .bottom {
+    background-image: url(../img/info-img.jpg);
+    width: 448px;
+    height: 163px;
+}
+
+.content.greeting article .title {
+    background-image: url(../img/h4-tit1-02.gif);
+    width: 82px;
+    height: 30px;
+}
+.content.greeting article .cont {
+    background-image: url(../img/greeting-img.jpg);
+    width: 678px;
+    height: 800px;
+}
+
+.content.history article .title {
+    background-image: url(../img/h4-tit1-03.gif);
+    width: 52px;
+    height: 31px;
+}
+
+.content.kibosWay article .title {
+    background-image: url(../img/h4-tit1-04.gif);
+    width: 168px;
+    height: 31px;
+}
+
+.content.history .tab-wrap {
+    overflow: hidden;
+}
+.content.history .tab {
+    width: 348px;
+    height: 42px;
+    float: left;
+    cursor: pointer;
+    background-image: url(../img/stroy-tab.gif);
+    border-bottom: 2px solid #ffce30;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content.history .tab:nth-child(2) {
+    background-position-x: right;
+}
+.content.history .tab.sel {
+    background-position-y: bottom;
+}
+.content.history .tview {
+    display: none;
+}
+.content.history .tview.sel {
+    display: block;
+}
+.content.history .tview:nth-child(1) {
+    width: 700px;
+    height: 1096px;
+    background-image: url(../img/history01.jpg);
+}
+.content.history .tview:nth-child(2) {
+    width: 700px;
+    height: 874px;
+    background-image: url(../img/history02.jpg);
+}
+
+.content.kibosWay .tab-wrap {
+    overflow: hidden;
+}
+.content.kibosWay .tab {
+    width: 348px;
+    height: 42px;
+    float: left;
+    cursor: pointer;
+    background-image: url(../img/way-tab.gif);
+    border-bottom: 2px solid #ffce30;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content.kibosWay .tab:nth-child(2) {
+    background-position-x: right;
+}
+.content.kibosWay .tab.sel {
+    background-position-y: bottom;
+}
+.content.kibosWay .tview {
+    display: none;
+}
+.content.kibosWay .tview.sel {
+    display: block;
+}
+
+.content.kibosWay .map {
+    background-color: #fff;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 46px;
+}

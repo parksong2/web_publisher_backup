@@ -1,0 +1,45 @@
+.content.kibos article .title {
+    background-image: url(../img/h4-tit1-01.gif);
+    width: 142px;
+    height: 30px;
+}
+.content.kibos .info {
+    background-image: url(../img/pic-info.jpg);
+    width: 448px;
+    height: 296px;
+}
+.content.kibos .cont {
+    background-image: url(../img/kibos-info.png);
+    width: 691px;
+    height: 600px;
+}
+.content.kibos .bottom {
+    background-image: url(../img/info-img.jpg);
+    width: 448px;
+    height: 163px;
+}
+.content.kibos aside .title {
+    height: 178px;
+    background-image: url(../img/h3-company.png);
+}
+.content.kibos aside .snb {
+    background-image: url(../img/lnb-company.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    cursor: pointer;
+}
+.content.kibos aside .snb:hover {
+    background-position-x: -190px;
+}
+.content.kibos aside .snb:nth-child(1) {
+    background-position-y: 14px;
+}
+.content.kibos aside .snb:nth-child(2) {
+    background-position-y: -32px;
+}
+.content.kibos aside .snb:nth-child(3) {
+    background-position-y: -78px;
+}
+.content.kibos aside .snb:nth-child(4) {
+    background-position-y: -124px;
+}

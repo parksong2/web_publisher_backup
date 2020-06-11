@@ -1,0 +1,99 @@
+.content.community aside .title {
+    background-image: url(../img/h3-community.png);
+}
+.content.community aside .snb {
+    background-image: url(../img/lnb-community.png);
+}
+
+.content.community article .title {
+    background-image: url(../img/h4-tit4-01.gif);
+    width: 171px;
+    height: 34px;
+}
+.content.community .info {
+    top: 50px;
+}
+.content.community .info .sns {
+    background-image: url(../img/sns_big.gif);
+    width: 37px;
+    height: 38px;
+    float: left;
+    margin-left: 4px;
+}
+.content.community .info .sns a {
+    display: block;
+    line-height: 38px;
+    text-indent: -9999px;
+}
+.content.community .info .sns:nth-child(2) {
+    background-position-x: -41px;
+}
+.content.community .info .sns:nth-child(3) {
+    background-position-x: -82px;
+}
+.content.community .info .sns:nth-child(4) {
+    background-position-x: -123px;
+}
+
+.content.story .cont {
+    top: 110px;
+}
+.content.story .tab-wrap {
+    overflow: hidden;
+}
+.content.story .tab {
+    width: 143px;
+    height: 42px;
+    float: left;
+    background-image: url(../img/comty-tab.gif);
+    background-color: #fff;
+    text-indent: -9999px;
+    cursor: pointer;
+    border-bottom: 2px solid #ffb345;
+}
+.content.story .tab.sel {
+    background-position-y: bottom;
+}
+.content.story .tab:nth-child(2) {
+    background-position-x: -137px;
+}
+.content.story .tab:nth-child(3) {
+    background-position-x: -274px;
+}
+.content.story .tab:nth-child(4) {
+    background-position-x: -414px;
+}
+.content.story .tab:nth-child(5) {
+    background-position-x: -554px;
+}
+
+.content.story .tview {
+    margin-top: 16px;
+    column-count: 3;
+    column-gap: 10px;
+}
+.content.story .com {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.content.story .com .photo img {
+    width: 100%;
+}
+.content.story .com .comment {
+    padding: 14px 20px;
+    min-height: 90px;
+    color: #444;
+}
+.content.story .com.yt .play {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url(../img/tube-play.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}

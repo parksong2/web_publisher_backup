@@ -1,0 +1,107 @@
+.content {
+    overflow: hidden;
+}
+
+.content .sign {
+    position: absolute;
+    left: 0; right: 0;
+    top: 0;
+    height: 178px;
+    background-image: url(../img/top-banner.jpg);
+    background-position: center top;
+    min-width: 980px;
+}
+
+.content .inner {
+    width: 980px;
+    margin: 0 auto;
+    min-height: 850px;  
+}
+
+.content aside {
+    position: absolute;
+    top: -178px; left: 0;
+    width: 203px;
+    bottom: 0;
+    background-color: #4b3229;
+    border-bottom: 1px solid #3e562d;
+}
+
+.content article {
+    margin: 178px 0 0 203px;
+}
+
+.content article .title {
+    position: absolute;
+    top: 60px; left: 60px;
+}
+
+.content article .info {
+    position: absolute;
+    top: 0; right: 0;
+}
+
+.content article .cont {
+    position: absolute;
+    top: 150px; left: 60px;
+}
+
+.content article .bottom {
+    position: absolute;
+    right: 0;
+    top: 690px;
+}
+
+.content aside .title {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #6d4d41;
+    height: 178px;
+}
+
+.content aside .snb-wrap {
+    margin-top: 14px;
+    height: 400px;
+}
+
+.content aside .snb {
+    margin: 0 auto 1px;
+    width: 189px;
+    height: 44px;
+    background-color: #60453b;
+    border: 1px solid #805f53;
+     
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+.content aside .snb a {
+    display: block;
+    line-height: 44px;
+    text-indent: -9999px;
+}
+.content aside .snb:nth-child(1) {
+    background-position-y: 14px;
+}
+.content aside .snb:nth-child(2) {
+    background-position-y: -32px;
+}
+.content aside .snb:nth-child(3) {
+    background-position-y: -78px;
+}
+.content aside .snb:nth-child(4) {
+    background-position-y: -124px;
+}
+.content aside .snb:nth-child(5) {
+    background-position-y: -173px;
+}
+.content aside .snb:nth-child(6) {
+    background-position-y: -219px;
+}
+
+.content aside .snb:hover {
+    background-position-x: -190px !important;
+}
+
+.content aside .snb.sel {
+    background-position-x: -190px !important;
+}

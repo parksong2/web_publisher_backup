@@ -1,0 +1,60 @@
+footer {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+footer .etc-mu {
+    height: 58px;
+    background-image: url(../img/etc-bg.gif);
+}
+footer .inner {
+    width: 960px;
+    margin: 0 auto;
+}
+footer .etc-mu .etc {
+    background-image: url(../img/etc-mu.gif);
+    float: left;
+    height: 14px;
+    margin-top: 20px;
+}
+footer .etc-mu .etc:first-child {
+    width: 109px;
+}
+footer .etc-mu .etc:last-child {
+    width: 60px;
+    background-position-x: right;
+}
+footer .etc-mu .etc a {
+    display: block;
+    text-indent: -9999px;
+}
+footer .company-info {
+    width: 606px;
+    height: 68px;
+    background-image: url(../img/kibos-info.gif);
+    margin: 20px 0 0;
+}
+footer .family-menu {
+    position: absolute;
+    top: 20px; right: 0;
+    width: 148px;
+    height: 27px;
+    background-image: url(../img/face-mu.gif);
+    cursor: pointer;
+}
+footer .family-menu .fmenu-wrap {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 26px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: none;
+}
+footer .family-menu .fmenu {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 2px 4px;
+}
+footer .family-menu .fmenu:hover {
+    background-color: #f4f4f4;
+}

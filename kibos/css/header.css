@@ -1,0 +1,109 @@
+header {
+    height: 176px;
+    background-image: url(../img/top.gif);
+}
+ 
+header .inner {
+    width: 960px;
+    margin: 0 auto;
+    height: 113px;
+}
+ 
+header .logo {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header .util-wrap {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.util-wrap .util {
+    float: left;
+    color: #fff;
+    background-image: url(../img/link-mu.gif);
+}
+.util-wrap .util a {
+    display: block;
+    text-indent: -9999px;
+}
+.util-wrap .util:nth-child(1) {
+    width: 42px;
+    height: 10px;
+}
+.util-wrap .util:nth-child(2) {
+    width: 39px;
+    height: 10px;
+    background-position: -42px 0;
+}
+.util-wrap .util:nth-child(3) {
+    width: 61px;
+    height: 10px;
+    background-position: -81px 0;
+}
+.util-wrap .util:nth-child(4) {
+    width: 50px;
+    height: 10px;
+    background-position: right 0;
+}
+.util-wrap .util.shopping {
+    width: 77px;
+    height: 25px;
+    background-image: url(../img/shopping.png);
+    margin-top: -6px;
+}
+
+header .brand-btn {
+    width: 130px;
+    height: 36px;
+    position: absolute;
+    left: calc(50% - 490px); top: 113px; /*inner 960/2. [50% - inner/2]*/
+    background-image: url(../img/all-brand.png);
+    cursor: pointer;
+}
+header .brand-btn.on {
+    background-position: right 0;
+}
+
+header nav {
+    height: 63px;
+    background-color: #4c4c4e;
+    border-top: 1px solid #575758;
+    text-align: center;
+}
+ 
+nav .gnb {
+    height: 19px;
+    display: inline-block;
+    background-image: url(../img/gnb-mu.gif);
+    margin-top: 20px;
+}
+nav .gnb:nth-child(1) {
+    width: 103px;
+}
+nav .gnb:nth-child(2) {
+    width: 92px;
+    background-position: -103px 0;
+}
+nav .gnb:nth-child(3) {
+    width: 106px;
+    background-position: -195px 0;
+}
+nav .gnb:nth-child(4) {
+    width: 101px;
+    background-position: -301px 0;
+}
+nav .gnb:nth-child(5) {
+    width: 98px;
+    background-position: -402px 0;
+}
+ 
+nav .gnb a {
+    display: block;
+    text-indent: -9999px;
+}
+nav .gnb.sel {
+    background-image: url(../img/gnb-mu-over.gif);
+}
